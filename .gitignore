@@ -1,0 +1,18 @@
+# Dependencias
+**/node_modules/
+
+# Compilaciones
+angular/dist/
+angular/.angular/
+nestjs/dist/
+
+# Variables de entorno reales
+.env
+.env.*
+!.env.example
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
